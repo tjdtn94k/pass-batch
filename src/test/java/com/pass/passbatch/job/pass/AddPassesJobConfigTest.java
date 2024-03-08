@@ -35,7 +35,7 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 @Slf4j
 @SpringBatchTest
 @SpringBootTest
-@ActiveProfiles("tc")
+@ActiveProfiles("test")
 @ContextConfiguration(classes = {AddPassesJobConfig.class, TestBatchConfig.class, AddPassesTasklet.class})
 public class AddPassesJobConfigTest {
 
